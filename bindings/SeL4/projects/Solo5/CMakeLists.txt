@@ -12,8 +12,8 @@ add_executable(root ${deps})
 
 target_link_libraries(root sel4muslcsys  muslc sel4allocman)
 
-target_include_directories(root PUBLIC ../../include/solo5/)
- 
+#target_include_directories(root PUBLIC ../../include/solo5/)
+target_include_directories(root PUBLIC ../../../../include/solo5/)
 
 
 # Set this image as the rootserver

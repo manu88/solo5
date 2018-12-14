@@ -7,7 +7,7 @@ endif()
 
 include(tools/cmake-tool/default-CMakeLists.txt)
 
-add_subdirectory(projects)
+#add_subdirectory(projects)
 
 if(SIMULATION)
         ApplyCommonSimulationSettings("x86")
