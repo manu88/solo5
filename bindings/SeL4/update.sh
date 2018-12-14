@@ -17,9 +17,9 @@ fi
 
 
 # create projects folder if needed
-if [ ! -d "projects" ]; then
-	mkdir projects
-fi
+#if [ ! -d "projects" ]; then
+#	mkdir projects
+#fi
 
 
 if [ -d "projects/util_libs/" ]; then
@@ -43,5 +43,6 @@ fi
 
 
 
-# 
-ln -s tools/cmake-tool/init-build.sh init-build.sh
+if [ ! -f "init-build.sh" ]; then
+	ln -s tools/cmake-tool/init-build.sh init-build.sh
+fi
