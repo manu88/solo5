@@ -1,4 +1,4 @@
-# SeL4 bindings for Solo5
+# Solo5 : SeL4 implementation
 
 ## Setup and build
 
